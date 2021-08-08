@@ -1,7 +1,7 @@
 ### Dataset Overview
 SimUAV is a simulated, not real-world, dataset for UAV small object detection. It contains **29,568** images in **8** scenes or backgrounds including street, trees, grass, mountain lake, palace, winter town, and temple. Each scene has **4** multi-rotor models: Parrot A.R. Drone 2.0, DJI Inspire I, DJI Mavic 2 Pro and Dji Phantom 4 Pro. 
 
-![Figure 1](imgs\8scenes.png)
+![Figure 1](.\imgs\8scenes.png)
 
 <center><b>Figure 1</b> Example images for 8 scenes simulated, each has been annotated by red boxes. Note the white cross line in each image helps to locate the objects(in which quadrant) and the multi-rotor model in each image is DJI Mavic 2 Pro.</center>
 
