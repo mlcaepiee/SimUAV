@@ -1,11 +1,11 @@
 ### Dataset Overview
 SimUAV is a simulated, not real-world, dataset for UAV small object detection. It contains **29,568** images in **8** scenes or backgrounds including street, trees, grass, mountain lake, palace, winter town, and temple. Each scene has **4** multi-rotor models: Parrot A.R. Drone 2.0, DJI Inspire I, DJI Mavic 2 Pro and Dji Phantom 4 Pro. 
 
-![Figure 1](H:\zhf\paper\imgs\8scenes.png)
+![Figure 1](imgs\8scenes.png)
 
 <center><b>Figure 1</b> Example images for 8 scenes simulated, each has been annotated by red boxes. Note the white cross line in each image helps to locate the objects(in which quadrant) and the multi-rotor model in each image is DJI Mavic 2 Pro.</center>
 
-![Figure 2](H:\zhf\paper\imgs\4models.png)
+![Figure 2](imgs\4models.png)
 
 <center><b>Figure 2</b> 3D models for multi-rotors we used in simulation.</center>
 
@@ -62,10 +62,11 @@ Now, we definite the task of UAV small object detection: determine whether there
 ### Simulation Platform
 We apply Airsim and UE4 as our simulation softwares. Airsim is an open-source simulator for drones, built on Epic Games’ Unreal Engine 4 as a platform for AI research. Airsim allows us to fly multi-rotors in UE4 rendering environments at various velocities and on expected paths which can be set easily by python API. Besides, Airsim supports substituting any 3D model file for the default multi-rotor model. UE4 provides a variety of environments or scenes in Epic Store, including forests, beaches, cities, parks, and so on.
 
-![Figure 3](H:\zhf\paper\imgs\airsim.png)
+![Figure 3](imgs\airsim.png)
 
 <center><b>Figure 3</b> A snapshot from AirSim shows an aerial vehicle flying in an urban environment.</center>
 
-![Figure 4](H:\zhf\paper\imgs\ue_market.png)
+![Figure 4](imgs\ue_market.png)
 
 <center><b>Figure 4</b> A Search Page of UE 4 Market, you can find various environments here.</center>
+
