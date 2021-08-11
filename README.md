@@ -2,10 +2,10 @@
 ​	SimUAV is a simulated, not real-world, dataset for UAV small object detection. It contains **29,568** images in **8** scenes or backgrounds including street, trees, grass, mountain lake, palace, winter town, and temple. Each scene has **4** multi-rotor models: Parrot A.R. Drone 2.0, DJI Inspire I, DJI Mavic 2 Pro, and Dji Phantom 4 Pro. 
 
 ![Figure 1](./imgs/8scenes.png)
-<center><b>Figure 1</b> Examples for 8 scenes simulated, each has been annotated by red boxes. Note the white cross-line in each image helps to locate the objects(in which quadrant) and the multi-rotor model in each image is DJI Mavic 2 Pro.</center>
+<p align="center"><b>Figure 1</b> Examples for 8 scenes simulated, each has been annotated by red boxes. Note the white cross-line in each image helps to locate the objects(in which quadrant) and the multi-rotor model in each image is DJI Mavic 2 Pro.</p>
 
 ![Figure 2](./imgs/4models.png)
-<center><b>Figure 2</b> 3D models for multi-rotors we used in simulation.</center>
+<p align="center"><b>Figure 2</b> 3D models for multi-rotors we used in simulation.</p>
 
 
 
@@ -15,10 +15,10 @@
 | **DJI Inspire** | 641  |  1240  | 1274  |  600  |     1202      |  603   |      601       |    1206     |
 |  **DJI Mavic**  | 757  |  1460  | 1326  |  601  |     1204      |  600   |      602       |    1205     |
 | **DJI Phantom** | 623  |  1251  | 1216  |  603  |     1204      |  604   |      600       |    1204     |
-<center><b>Table 1</b> Image Count of each model and scene.</center>
+<p align="center"><b>Table 1</b> Image Count of each model and scene.</p>
 
 ![Figure 3](./imgs/sim_stat.png)
-<center><b>Figure 3</b> Proportion of each scene and model.</center>
+<p align="center"><b>Figure 3</b> Proportion of each scene and model.</p>
 
 ### How to Get
 
@@ -48,9 +48,9 @@ Anyone can get access the SimUAV Dataset by following links:
 ### Simulation Platform
 ​	We apply Airsim and UE4 as our simulation softwares. [Airsim](https://microsoft.github.io/AirSim/) is an open-source simulator for drones, built on Epic Games’ [Unreal Engine 4](https://www.unrealengine.com/) as a platform for AI research. Airsim allows us to fly multi-rotors in UE4 rendering environments at various velocities and on expected paths which can be set easily by python API. Besides, Airsim supports substituting any 3D model file for the default multi-rotor model. UE4 provides a variety of environments or scenes in Epic Store, including forests, beaches, cities, parks, and so on.
 
-![Figure 5](./imgs/airsim_ue.png)
+![Figure 4](./imgs/airsim_ue.PNG)
 
-<center><b>Figure 3 Left</b>: A snapshot from AirSim shows a multi-rotor flying in an urban environment. <b>Right</b>: A Search Page of UE 4 Market.</center>
+<p align="center"><b>Figure 4 Left</b>: A snapshot from AirSim shows a multi-rotor flying in an urban environment. <b>Right</b>: A Search Page of UE 4 Market.</p>
 
 ### Simulation Method
 
@@ -58,9 +58,11 @@ Anyone can get access the SimUAV Dataset by following links:
 
 ![Figure 5](./imgs/sim_method.png)
 
-<center><b>Figure 5</b> The observer multi-rotor shoots the target multi-rotors with onboard cameras.</center>
+<p align="center"><b>Figure 5</b> The observer multi-rotor shoots the target multi-rotors with onboard cameras.</p>
 
-​	**Warm prompt 3:** github's markdown dose not support math expression, please use a [chrome extension](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related) or you can download the whole project and read locally.
+
+
+**Warm prompt 3:** github's markdown dose not support math expression, please use a [chrome extension](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related) or you can download the whole project and read locally.
 
 ​	Since the positions of targets and attitudes of cameras are available by Airsim during shooting, the labels of each image can be computed theoretically. Taking Target1 in figure 5 as an example, there are three frames involved: world frame, camera frame, and pixel frame, respectively expressed by $O_wX_wY_wZ_w$, $O_cX_cY_cZ_c$, and $O_pX_pY_p$. Therefore, we express the position of Target1 in three frames as $P_w(x_w,y_w,z_w)$, $P_c(x_c,y_c,z_c)$, and $P_p(x_p, y_p)$ respectively. Obviously, $P_p(x_p, y_p)$ is what we need in annotation and can be computed by the following formulas (1) and (2):
 $$
