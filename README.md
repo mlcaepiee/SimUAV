@@ -83,7 +83,7 @@ $$
 where $R\in \{R|R^TR=I_3, det(R)=1\}$ is the rotation matrix  with respect to the transformation from $O_wX_wY_wZ_w$ to $O_cX_cY_cZ_c$ and $t$ is the translation vector (equal to the camera position in the world frame) . Both $R$ and $t$ can be obtained by Airsim with a little computation;
 $$
 \begin{cases}
-x_p = y_m - f\frac{y_c}{z_c}\\
+x_p = y_m - f\frac{y_c}{z_c};\\
 y_p = x_m + f\frac{x_c}{z_c}
 \end{cases}\tag{2}
 $$
