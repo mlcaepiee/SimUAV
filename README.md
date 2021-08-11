@@ -36,7 +36,9 @@ Anyone can get access the SimUAV Dataset by following links:
 - Seaside Temple(1.08GB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
 - Winter Town(2.9GB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
 
-**Warm prompt:** before you download any scene you choose, it may help to preview the example images in the 'examples' fold..
+**Warm prompt 1:** before you download any scene you choose, it may help to preview the example images in the 'examples' fold.
+
+**Warm prompt 2:** in our published [paper](), we also use a real-world dataset to train our deep learning model along with the SimUAV dataset. You can download the real-world dataset as you want:  [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing);  [Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
 
 
 ### Background
@@ -62,7 +64,7 @@ Anyone can get access the SimUAV Dataset by following links:
 
 ![Figure 5](./imgs/sim_method.png)
 
-<center><b>Figure 5</b> The observer multi-rotor shoot the target multi-rotors with onboard cameras.</center>
+<center><b>Figure 5</b> The observer multi-rotor shoots the target multi-rotors with onboard cameras.</center>
 
 ​	Since the positions of targets and attitudes of cameras are available by Airsim during shooting, the labels of each image can be computed theoretically. Taking Target1 in figure 5 as an example, there are three frames involved: world frame, camera frame, and pixel frame, respectively expressed by $O_wX_wY_wZ_w$, $O_cX_cY_cZ_c$, and $O_pX_pY_p$. Therefore, we express the position of Target1 in three frames as $P_w(x_w,y_w,z_w)$, $P_c(x_c,y_c,z_c)$, and $P_p(x_p, y_p)$ respectively. Obviously, $P_p(x_p, y_p)$ is what we need in annotation and can be computed by the following formulas (1) and (2):
 $$
