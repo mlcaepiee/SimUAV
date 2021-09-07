@@ -24,19 +24,18 @@
 
 Anyone can get access the SimUAV Dataset by following links:
 
-- Pool(1.01GB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
-- Street(2.3GB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
-- Trees(2.41GB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
-- Grass(872MB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
-- Mountain Lake(2.44GB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
-- Palace(1.6GB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
-- Seaside Temple(1.08GB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
-- Winter Town(2.9GB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
+- Pool(1.01GB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/19-JxuWntEHFX3XgQ3gv0Bg) Token: dq0z
+- Street(2.3GB): [Google Drive](https://drive.google.com/file/d/1PIg57gZraLWspl_fnBUY4rmfyfbd0DcQ/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1I8vaZmut__OE44Rt5ZQhcg) Token: kq6t
+- Trees(2.41GB): [Google Drive](https://drive.google.com/file/d/1QDIkWUyaHFsTiS6TWTLEpkafiyyopYyh/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1iXHy0aVj8LTCvO-aRLi0ww) Token: 19qo
+- Grass(872MB): [Google Drive](https://drive.google.com/file/d/1Hcfk9TUSmJOnWW4zKW-P9Tg8QuCtv_MY/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1gN0pWJ1AihD0xuuhJwRwEA) Token: dzyr
+- Mountain Lake(2.44GB): [Google Drive](https://drive.google.com/file/d/1LrVHpor5JATyH16fD_bQTjJcdamSwidh/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1E-FKuWL98dNeWs9bME7hTQ) Token: 58zm
+- Palace(1.6GB): [Google Drive](https://drive.google.com/file/d/19I_vBdbXYCQ6Wg7jrQEf0LzU-Kiov2kR/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1i6lliC8hLsbKUiPnM-ec1Q) Token: j8ze
+- Seaside Temple(1.08GB): [Google Drive](https://drive.google.com/file/d/17ctfYfG-tJghSHrQBUtVWI6L-rGgmRsY/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/172-a02ktGtXc2arozFPxhQ) Token: u7zy
+- Winter Town(2.9GB): [Google Drive](https://drive.google.com/file/d/1xNhaQn1FQYtKCNeLhwbn9IXYIdGoJOGJ/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1nZBiJn4GUDVBjl5MDq6SzQ) Token: t1aa
 
 **Warm prompt 1:** before you download any scene you choose, it may help to preview the example images in the 'examples' fold.
 
-**Warm prompt 2:** in our published [paper](), we also use a real-world dataset to train our deep learning model along with the SimUAV dataset. You can download the real-world dataset as you want:  [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing);  [Baidu Cloud](https://pan.baidu.com/s/1xVVMRNZRRdEXifHRkNNgog) Token: 711K
-
+**Warm prompt 2:** in our published [paper](https://arxiv.org/abs/2109.01800), we also use a real-world dataset to train our deep learning model along with the SimUAV dataset. You can download the real-world dataset as you want:  [Google Drive](https://drive.google.com/drive/folders/1Cyeup-_6U_-fSh8f5osysjSmUbZsvb04?usp=sharing) ; [Baidu Cloud](https://pan.baidu.com/s/12QjeuUzLBteh6PWcCuPt0g) Token: n7mo
 
 ### Background
 
@@ -87,13 +86,22 @@ x_p = y_m - f\frac{y_c}{z_c};\\
 y_p = x_m + f\frac{x_c}{z_c}
 \end{cases}\tag{2}
 $$
-where $f$ is focal length set in Airsim, and$P_p(x_w, y_m)$ is the center position in pixel frame of the image, for example$P_p(x_w, y_m)$ is $P_m(320, 320)$ in a 640*640 image.
+where $f$​​ is focal length set in Airsim, and$P_p(x_m y_m)$​​ is the center position in pixel frame of the image, for example$P_p(x_m, y_m)$​​ is $P_m(320, 320)$​​ in a 640*640 image.
 
 ​	Overall, we generate all the annotated images in various scenes and drone models forming the SimUAV dataset.
 
-### Cite
+### Citation
+
+Please cite this paper in your publications if SimUAV helps your research.
 
 ```
-to be supplemented.
+@misc{rui2021comprehensive,
+      title={A Comprehensive Approach for UAV Small Object Detection with Simulation-based Transfer Learning and Adaptive Fusion}, 
+      author={Chen Rui and Guo Youwei and Zheng Huafei and Jiang Hongyu},
+      year={2021},
+      eprint={2109.01800},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
