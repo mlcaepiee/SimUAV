@@ -1,4 +1,11 @@
+## Important Notes
+
+- For anyone who has download the Street or Trees sub-dataset before Beijing Time 2021.10.25 8:40 or UTC 2021.10.25 :40, please update the [label files](https://github.com/mlcaepiee/SimUAV/blob/main/label_update.zip). The reason can be found on this [issue](https://github.com/mlcaepiee/SimUAV/issues/2). We feel very sorry for our mistake.
+
+
+
 ## Dataset Overview
+
 ​	SimUAV is a simulated, not real-world, dataset for UAV small object detection. It contains **29,568** images in **8** scenes or backgrounds including street, trees, grass, mountain lake, palace, winter town, and temple. Each scene has **4** multi-rotor models: Parrot A.R. Drone 2.0, DJI Inspire I, DJI Mavic 2 Pro, and Dji Phantom 4 Pro. 
 
 ![Figure 1](./imgs/8scenes.png)
@@ -25,8 +32,8 @@
 Anyone can get access the SimUAV Dataset by following links:
 
 - Pool(1.01GB): [Google Drive](https://drive.google.com/file/d/1DhNubHELtf2ghw9RT7oETCOreb1Hpcgi/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/19-JxuWntEHFX3XgQ3gv0Bg) Token: dq0z
-- Street(2.3GB): [Google Drive](https://drive.google.com/file/d/1PIg57gZraLWspl_fnBUY4rmfyfbd0DcQ/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1I8vaZmut__OE44Rt5ZQhcg) Token: kq6t
-- Trees(2.41GB): [Google Drive](https://drive.google.com/file/d/1QDIkWUyaHFsTiS6TWTLEpkafiyyopYyh/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1iXHy0aVj8LTCvO-aRLi0ww) Token: 19qo
+- Street(2.3GB): [Google Drive](https://drive.google.com/file/d/1rdNgixBeYo-vWmTJhILTJj-7cdRVPG3O/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1mHD6JIPGp2Z7ZQuji0zPrg) Token: nzkz
+- Trees(2.41GB): [Google Drive](https://drive.google.com/file/d/1lKy8usjbZtgNXF_s5vV7btPTdntX1Nw9/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/18QN1InBxIxFBZFGBe6uI3w) Token: ooxx
 - Grass(872MB): [Google Drive](https://drive.google.com/file/d/1Hcfk9TUSmJOnWW4zKW-P9Tg8QuCtv_MY/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1gN0pWJ1AihD0xuuhJwRwEA) Token: dzyr
 - Mountain Lake(2.44GB): [Google Drive](https://drive.google.com/file/d/1LrVHpor5JATyH16fD_bQTjJcdamSwidh/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1E-FKuWL98dNeWs9bME7hTQ) Token: 58zm
 - Palace(1.6GB): [Google Drive](https://drive.google.com/file/d/19I_vBdbXYCQ6Wg7jrQEf0LzU-Kiov2kR/view?usp=sharing); 	[Baidu Cloud](https://pan.baidu.com/s/1i6lliC8hLsbKUiPnM-ec1Q) Token: j8ze
